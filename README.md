@@ -386,9 +386,14 @@ cat > file21
 1003 | Joe |  7000 | Developer
 1005 | Sam |  5000 | HR
 1004 | Sit |  7000 | Dev
-``` 
+```
+
+<img width="314" height="175" alt="image" src="https://github.com/user-attachments/assets/9a0d5e87-6103-4e02-af16-1861d44348c3" />
+
 sort file21
 ## OUTPUT
+
+<img width="310" height="177" alt="image" src="https://github.com/user-attachments/assets/0aca2388-cc1b-4c8b-b5ce-1fe8426bbea4" />
 
 
 cat > file22
@@ -399,16 +404,22 @@ cat > file22
 1003 | Joe |  7000 | Developer
 1005 | Sam |  5000 | HR
 1004 | Sit |  7000 | Dev
-``` 
+```
+
+<img width="320" height="203" alt="image" src="https://github.com/user-attachments/assets/b0164062-bb3f-4816-a837-ea2895a7c897" />
+
+
 uniq file22
 ## OUTPUT
 
+<img width="323" height="177" alt="image" src="https://github.com/user-attachments/assets/ddb1477e-03ba-43a1-90f9-bb1a40aa36e8" />
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+<img width="426" height="253" alt="image" src="https://github.com/user-attachments/assets/70f6ae0c-c454-45f8-afc5-c009e3076d47" />
 
 cat < urllist.txt
 ```
@@ -417,6 +428,9 @@ www. google. com
 www. mrcet.... com
 ^d
  ```
+
+<img width="271" height="127" alt="image" src="https://github.com/user-attachments/assets/7534e144-f8fa-44d0-b2e0-21e571ca9afa" />
+
 cat > urllist.txt
 ```
 www. yahoo. com
@@ -426,16 +440,20 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+<img width="347" height="124" alt="image" src="https://github.com/user-attachments/assets/c8f13bc4-099e-4ea5-b437-05a770b52269" />
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+<img width="471" height="132" alt="image" src="https://github.com/user-attachments/assets/07a5b52f-9f36-444c-b68a-278c9299f993" />
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+
+<img width="297" height="253" alt="image" src="https://github.com/user-attachments/assets/d8def213-115d-429e-b108-7494dc80f629" />
 
 
 mkdir backupdir
@@ -447,9 +465,14 @@ cd backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
+<img width="631" height="305" alt="image" src="https://github.com/user-attachments/assets/0a958dbd-7a04-4b64-aafa-4d383a511cd8" />
+
+
 
 tar -xvf backup.tar
 ## OUTPUT
+
+<img width="393" height="299" alt="image" src="https://github.com/user-attachments/assets/cc90fdfe-bd8b-4491-a0bd-a25d9a5c978b" />
 
 gzip backup.tar
 
