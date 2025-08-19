@@ -742,10 +742,12 @@ fi
 
 <img width="486" height="370" alt="image" src="https://github.com/user-attachments/assets/757c31f6-edc5-42f3-bedb-5bb188465420" />
 
-$ chmod 755 iftest.sh
+$chmod 755 iftest.sh
  
-$ ./iftest.sh 
+$./iftest.sh 
 ## OUTPUT
+
+<img width="610" height="182" alt="image" src="https://github.com/user-attachments/assets/ae480a4e-2ccd-4a89-910f-19e601c62ecd" />
 
 # check if a file
 cat > ifnested.sh 
@@ -790,14 +792,18 @@ else
 echo “Sorry, the object does not exist”
 fi
 ```
+## OUTPUT
+<img width="470" height="472" alt="image" src="https://github.com/user-attachments/assets/33957b84-18c8-412b-b296-f2b7b2cbae1d" />
 
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+
+## OUTPUT
+<img width="631" height="209" alt="image" src="https://github.com/user-attachments/assets/47c144d5-be10-47f6-bf1c-12ce926bc615" />
 
 # looking for a possible value using elif
-cat elifcheck.sh 
+cat > elifcheck.sh 
 ```bash
 \#!/bin/bash
 if [ $USER = Ram ]
@@ -824,6 +830,7 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
+<img width="640" height="148" alt="image" src="https://github.com/user-attachments/assets/ffd6b431-d671-4d9b-9809-4c0cf2e5be3f" />
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -839,6 +846,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+
+<img width="642" height="151" alt="image" src="https://github.com/user-attachments/assets/cfc7a40e-2d98-4b9d-a68f-7776bd577799" />
 
 # using the case command
 cat >casecheck.sh 
@@ -858,7 +867,10 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+## OUTPUT
+
+<img width="336" height="123" alt="image" src="https://github.com/user-attachments/assets/416cac6f-4064-4c8d-8ad9-25f3c2fb11f1" />
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -874,8 +886,11 @@ $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
  
- 
-cat untiltest.sh 
+## OUTPUT
+
+
+
+cat > untiltest.sh 
 ```bash
 \#using the until command
 var1=100
@@ -886,10 +901,13 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
+$ ./untiltest.sh
+
+## OUTPUT
+
+<img width="321" height="206" alt="image" src="https://github.com/user-attachments/assets/4885d11f-d88c-49a3-802c-604fbc1c9eae" />
  
- 
- 
-cat forin1.sh 
+cat > forin1.sh 
 ```bash
 \#!/bin/bash
 \#basic for command
@@ -900,21 +918,14 @@ done
  ```
  
 $ chmod 755 forin1.sh
+$ ./forin1.sh
+
+## OUTPUT
+
+<img width="606" height="301" alt="image" src="https://github.com/user-attachments/assets/67e410e1-046e-4444-894d-560d2fa8c931" />
+
  
- 
-cat forin2.sh 
-```bash
-\#!/bin/bash
-\# another example of how not to use the for command
-for test in I don't know if this'll work
-do
-echo “word:$test”
-done
- ```
- 
-$ chmod 755 forin2.sh
- 
-cat forin2.sh 
+cat > forin2.sh 
 ```bash
 \#!/bin/bash
 \# another example of how not to use the for command
@@ -924,10 +935,14 @@ echo “word:$test”
 done
 ```
 $ chmod 755 forin2.sh
- 
+
 $ ./forin2.sh 
+
+## OUTPUT
+
+<img width="289" height="175" alt="image" src="https://github.com/user-attachments/assets/b8fa45fb-9c30-4b58-b3e0-a8dd283b494a" />
  
-cat forin3.sh 
+cat > forin3.sh 
 ```bash
 \#!/bin/bash
 \# another example of how not to use the for command
@@ -936,9 +951,14 @@ do
 echo "word:$test"
 done
 ```
+$ chmod 755 forin3.sh
 $ ./forin3.sh 
- 
-cat forin1.sh 
+
+## OUTPUT
+
+<img width="280" height="238" alt="image" src="https://github.com/user-attachments/assets/6d12dac0-1e0f-4341-9fb8-f9e094aa4b39" />
+
+cat > forin1.sh 
 ```bash
 #!/bin/bash
 # basic for command
@@ -948,9 +968,12 @@ echo The next state is $test
 done
 ```
 $ chmod 755 forin1.sh
+$ ./forin1.sh 
 
 ## OUTPUT
-cat forinfile.sh 
+<img width="322" height="245" alt="image" src="https://github.com/user-attachments/assets/8c071d11-feca-476c-90f2-eaa46dd93a46" />
+
+cat > forinfile.sh 
 ```bash
 #!/bin/bash
 # reading values from a file
